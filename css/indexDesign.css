@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+  background-image: url("../images/greenBackground.png");
+  width: 960px;
+}
+
+#profile {
+  width: 300px;
+  position: relative;
+  float: right;
+  bottom: 200px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+#intro-block {
+  font-size: 20px;
+}
+
+#intro-block h2 {
+  font-size: 28px;
+}
+
+#profile:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.info {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#container {
+  position: relative;
+  bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 960px;
+  height: 300px;
+}
+
+.card {
+  margin: auto;
+  width: 290px;
+  height: 300px;
+  background-color: white;
+  position: relative;
+  border: 3px white solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card-content {
+  background-size: cover;
+	background-position: center;
+  text-align: center;
+  width: 100%;
+}
+
+.card-title {
+  background-color: grey;
+  margin-top: 0px;
+  font-size: 25px;
+  color: white;
+  position: relative;
+  bottom: 3px;
+  height: 35px;
+}
+
+table {
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  bottom: 50px;
+  background-color: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  height: 180px;
+  width: 450px;
+  margin: 0px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+table a {
+  color: purple;
+  text-decoration: underline;
+}
+
+td, th {
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #b8d6cf;
+}
+
+th {
+  font-size: 25px;
+  background-color: grey;
+  color: white;
+  font-weight: normal;
+}
+
+
+#liquid, #future, #bootstrap {
+  height: 150px
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+footer{
+  margin-top: 50px;
+}
+
+#footer-block {
+  margin: 0px auto;
+  border-top: 1px grey solid;
+  text-align: center;
+  color: black;
+  font-size: 10px;
+}
+

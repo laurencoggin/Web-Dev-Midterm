@@ -1,0 +1,29 @@
+.jumbotron {
+    background-image: url("../images/greenBackground.png");
+}
+
+.baby-goat {
+  width: 350px;
+  margin-bottom: 60px;
+}
+
+.adult-goat {
+  height: 450px;
+}
+
+.ownership {
+  margin-bottom: 70px;
+}
+
+h4, h3, h2{
+  color: #FF5A5A;
+}
+
+.qualities-box {
+  font-size: .8em;
+}
+
+.navbar {
+  background-color: grey;
+}
+
